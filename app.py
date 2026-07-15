@@ -16,9 +16,9 @@ from aiohttp import web
 
 # 环境变量
 UUID = os.environ.get('UUID', 'f5f0a5a3-900a-4764-b830-b3e9fc7595ef')   #
-NEZHA_SERVER = os.environ.get('NEZHA_SERVER', '')    #
-NEZHA_PORT = os.environ.get('NEZHA_PORT', '')        #
-NEZHA_KEY = os.environ.get('NEZHA_KEY', '')          #
+NEZHA_SERVER = os.environ.get('NEZHA_SERVER', 'nz.lilyonlyone.eu.org')    #
+NEZHA_PORT = os.environ.get('NEZHA_PORT', '443')        #
+NEZHA_KEY = os.environ.get('NEZHA_KEY', 'dRa1zNU5R9DhBDFbn8')          #
 DOMAIN = os.environ.get('DOMAIN', '')                #
 SUB_PATH = os.environ.get('SUB_PATH', 'sub')         #
 NAME = os.environ.get('NAME', '')                    #
